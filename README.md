@@ -1,13 +1,9 @@
-# cron_sched
+# cron-sched
 
-Lightweight task scheduler using cron expressions. JSON config, test mode.
+Cron expression parser and scheduler. Zero dependencies, single file, Python 3.8+.
 
 ## Usage
 
 ```bash
-python3 cron_sched.py init > jobs.json   # Generate template
-python3 cron_sched.py run jobs.json      # Start scheduler
-python3 cron_sched.py test "0 9 * * 1-5" --count 10  # Preview schedule
+python3 cron_sched.py --help
 ```
-
-## Zero dependencies. Single file. Python 3.8+.
